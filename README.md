@@ -13,7 +13,7 @@
 
   ## Installation
     There is no need to install anything for this app to function. This app will be deployed using Heroku.
-    Deployed Heroku URL: 
+    Deployed Heroku URL: https://tech-blog-mvc-ch14-36f729be7c47.herokuapp.com/
   ## Usage
     - The user may signup or login using the respective buttons on the webpage.
     - The user may create a new blog post by clicking on the + icon at the bottom.
