@@ -2,8 +2,8 @@
     --first: #e5f0e9;
     --second: #879390;
     --third: #697b7b;
-    --not-so-pretty-dark: #44403f;
-    --pretty-dark: #191615;
+    --greeny: #1a5a18;
+    --dark: #242421;
     --border-radius: 0.4rem;
   }
   
@@ -13,18 +13,17 @@
   
   body {
     background-color: var(--first);
-    margin: 0;
-    padding: 0;
     font-family: sans-serif;
-    color: var(--pretty-dark);
+    color: var(--dark);
     line-height: 1.5;
     font-size: 14px;
+    background: #fff url(https://static-wordpress.akamaized.net/montreal.ubisoft.com/wp-content/uploads/2022/12/05202651/Blogue_tech_IMG8-1-600x400.jpg) center center/cover no-repeat;
+
   }
   
   h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
-    margin: 0;
-    color: var(--pretty-dark);
+    color: var(--dark);
     line-height: 1.35;
   }
   
@@ -38,11 +37,14 @@
   
   header {
     margin-top: 48px;
+    background: #fff url(https://static-wordpress.akamaized.net/montreal.ubisoft.com/wp-content/uploads/2022/12/05202651/Blogue_tech_IMG8-1-600x400.jpg) center center/cover no-repeat;
+
   }
   
   main {
     margin: 21px auto;
     width: 92%;
+    
   }
   
   a {
@@ -74,10 +76,8 @@
     margin: 5px 0;
     border-radius: var(--border-radius);
     color: var(--first);
-    border: none;
-    outline: none;
-    background-color: var(--not-so-pretty-dark);
-    box-shadow: 3px 3px var(--pretty-dark);
+    background-color: var(--greeny);
+    box-shadow: 3px 3px var(--dark);
     transform: translate(-1px, -1px);
   }
   
@@ -85,7 +85,7 @@
     color: var(--first);
     background-color: var(--third);
     transform: translate(0, 0);
-    box-shadow: 2px 2px var(--pretty-dark);
+    box-shadow: 2px 2px var(--dark);
   }
   
   .btn-inline {
@@ -99,7 +99,8 @@
   .navbar {
     width: 100%;
     position: fixed;
-    background-color: var(--pretty-dark);
+    background: #fff url(https://static-wordpress.akamaized.net/montreal.ubisoft.com/wp-content/uploads/2022/12/05202651/Blogue_tech_IMG8-1-600x400.jpg) center center/cover no-repeat;
+
   }
   
   .nav-item {
@@ -112,7 +113,7 @@
   
   .hero {
     padding: 3% 4%;
-    background-color: var(--pretty-dark);
+    background-color: var(--dark);
     color: var(--first);
   }
   
@@ -123,15 +124,15 @@
   .app-title {
     font-size: 3rem;
     background-color: var(--first);
-    color: var(--pretty-dark);
+    color: var(--dark);
     padding: 0 10px;
     display: inline-block;
     border-radius: var(--border-radius);
-    box-shadow: 6px 5px var(--not-so-pretty-dark);
+    box-shadow: 6px 5px var(--greeny);
   }
   
   .app-title a {
-    color: var(--pretty-dark);
+    color: var(--dark);
   }
   
   .list-group {
@@ -142,20 +143,19 @@
     margin-bottom: 10px;
     padding: 1.5%;
     border-radius: var(--border-radius);
-    background-color: var(--not-so-pretty-dark);
+    background-color: var(--greeny);
     color: var(--first);
-    text-decoration: none;
   }
   
   .list-item:hover {
-    background-color: var(--pretty-dark);
+    background-color: var(--dark);
   }
   
   .footer a {
     display: inline-block;
     padding: 1em;
     margin-bottom: .5em;
-    background-color: var(--pretty-dark);
+    background-color: var(--dark);
     color: var(--first);
     border-radius: var(--border-radius);
     text-decoration: none;
@@ -163,19 +163,20 @@
   
   .card {
     margin: 0 0 20px 0;
-    border: 3px solid var(--pretty-dark);
+    border: 3px solid var(--dark);
     border-radius: var(--border-radius);
   }
   
   .card-header {
     color: var(--first);
-    background-color: var(--pretty-dark);
+    background-color: var(--dark);
     padding: 1%;
-    border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
   }
   
   .card-body {
     padding: 1%;
+    color: var(--first);
+    font-size: large;
   }
   
   .form-label,
@@ -194,7 +195,7 @@
     padding: 1%;
     margin: 5px 0;
     font-size: 1.2rem;
-    border: 2px solid var(--not-so-pretty-dark);
+    border: 2px solid var(--greeny);
     border-radius: var(--border-radius);
   }
   
@@ -256,52 +257,3 @@
   .col-auto {
     flex-grow: 1;
   }
-  
-  .col-1 {
-    flex: 0 0 calc(100% * 1 / 12 - 2%);
-  }
-  
-  .col-2 {
-    flex: 0 0 calc(100% * 2 / 12 - 2%);
-  }
-  
-  .col-3 {
-    flex: 0 0 calc(100% * 3 / 12 - 2%);
-  }
-  
-  .col-4 {
-    flex: 0 0 calc(100% * 4 / 12 - 2%);
-  }
-  
-  .col-5 {
-    flex: 0 0 calc(100% * 5 / 12 - 2%);
-  }
-  
-  .col-6 {
-    flex: 0 0 calc(100% * 6 / 12 - 2%);
-  }
-  
-  .col-7 {
-    flex: 0 0 calc(100% * 7 / 12 - 2%);
-  }
-  
-  .col-8 {
-    flex: 0 0 calc(100% * 8 / 12 - 2%);
-  }
-  
-  .col-9 {
-    flex: 0 0 calc(100% * 9 / 12 - 2%);
-  }
-  
-  .col-10 {
-    flex: 0 0 calc(100% * 10 / 12 - 2%);
-  }
-  
-  .col-11 {
-    flex: 0 0 calc(100% * 11 / 12 - 2%);
-  }
-  
-  .col-12 {
-    flex: 0 0 100%;
-  }
-  

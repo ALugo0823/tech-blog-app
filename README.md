@@ -39,4 +39,4 @@
   - Email: lugo.kse23@gmail.com
   
   ## Screenshot
-  ![tech-blog-screenshot](assets/tech-blog-screenshot.png)
+  ![tech-blog-screenshot](assets//techblog-ss.png)
